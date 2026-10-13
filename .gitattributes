@@ -1,0 +1,7 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Whole-project template: ship everything except repo meta and marketing.
+/marketing export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
