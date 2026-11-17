@@ -267,7 +267,7 @@ func _pin_corner(ui: Control) -> void:
 	ui.grow_vertical = Control.GROW_DIRECTION_BEGIN
 
 
-# Pro's readout carries the forecast too ("Rain, heavy    Next: Storm"), so its box is wider.
+# The full version's readout carries the forecast too ("Rain, heavy    Next: Storm"), so its box is wider.
 func _ui_width() -> float:
 	return 220.0
 
@@ -286,7 +286,7 @@ func write_startup(state: String, intensity: float, climate: String) -> void:
 
 
 
-# Reads the climate picker in Pro. Lite has no transition table to pick for, so
+# Reads the climate picker in the full version. Lite has no transition table to pick for, so
 # it always writes the temperate id and the setting is simply inert.
 func _lite_climate() -> String:
 	return "temperate"

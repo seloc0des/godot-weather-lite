@@ -32,7 +32,7 @@ Tick **Show the weather to the player** in **Weather · Setup** before you press
 Apply. It adds a small readout ("Rain, heavy") in the bottom-right corner, on
 its own CanvasLayer drawn above the weather, so the tint never covers it. Apply
 again and it stays one readout. With "Whole game" picked, it goes into the scene
-you have open. While a Dialogue (Lite or Pro) conversation is on screen the
+you have open. While a Dialogue (Lite or full) conversation is on screen the
 readout steps aside, so it never sits over the dialogue box, and comes back when
 it ends. Untick `hide_during_dialogue` on it to keep it up.
 

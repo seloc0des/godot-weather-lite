@@ -8,14 +8,14 @@ extends Control
 # keep its CanvasLayer above the Weather2D layer, or the tint sits over it.
 
 @export var show_strength: bool = true
-## Steps out of the way while a Dialogue (Lite or Pro) conversation is on screen,
+## Steps out of the way while a Dialogue (Lite or full) conversation is on screen,
 ## so it never sits over the dialogue box.
 @export var hide_during_dialogue: bool = true
 
 var _label: Label
 var _wm: Node
 
-# Dialogue Lite and Pro, looked up by name so neither pack is needed
+# Dialogue Lite and the full Dialogue, looked up by name so neither pack is needed
 const _DIALOGUE := ["/root/DialoguesLite", "/root/DialogueManager"]
 
 const _WORD := {
